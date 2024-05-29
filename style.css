@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 0 4rem;
+}
+#page-1 {
+  background: url("horse-riding-in-khuvsgul-lake-e1556714950837.jpg") no-repeat
+    center center/cover;
+}
+#page-2 {
+  background: url("new_36ffff97f30e3ca281f8c93f1434247e8cfaaf88.jpg") no-repeat
+    center center/cover;
+}
+#page-3 {
+  background: url("Uvs-Lake-Tour-Mongolia-5.jpg") no-repeat center center/cover;
+}
+#page-4 {
+  background: url("Uvs-Nuur-Basin-Mongolia.jpg") no-repeat center center/cover;
+}
+#page-5 {
+  background: url("west-thumb-2-Khyargas-lake.jpg") no-repeat center
+    center/cover;
+}
+.page a {
+  color: black;
+  padding: 5px;
+  margin: 2spx;
+  border-radius: 5px;
+  background-color: rgb(147, 120, 84);
+  text-decoration: none;
+}
